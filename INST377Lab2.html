@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Form Page</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        .input-container {
+            margin: 10px 0;
+        }
+        label {
+            font-size: 18px;
+        }
+        input[type="text"] {
+            padding: 8px;
+            width: 100%;
+        }
+        input[type="submit"] {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="INST377Lab2submit.html" method="get">
+        <div class="input-container">
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
